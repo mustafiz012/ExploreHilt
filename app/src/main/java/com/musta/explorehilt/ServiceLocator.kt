@@ -1,4 +1,4 @@
-package com.example.android.hilt
+package com.musta.explorehilt
 
 import android.content.Context
 import androidx.fragment.app.FragmentActivity

@@ -1,8 +1,9 @@
 package com.musta.explorehilt
 
 import android.app.Application
-import com.example.android.hilt.ServiceLocator
+import dagger.hilt.android.HiltAndroidApp
 
+@HiltAndroidApp
 class LogApplication : Application() {
 
     lateinit var serviceLocator: ServiceLocator

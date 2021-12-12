@@ -3,11 +3,12 @@ package com.musta.explorehilt.util
 import android.annotation.SuppressLint
 import java.text.SimpleDateFormat
 import java.util.*
+import javax.inject.Inject
 
 /**
  * String formatter for the log dates.
  */
-class DateFormatter {
+class DateFormatter @Inject constructor(){
 
     @SuppressLint("SimpleDateFormat")
     private val formatter = SimpleDateFormat("d MMM yyyy HH:mm:ss")
